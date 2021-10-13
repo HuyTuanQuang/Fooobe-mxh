@@ -1,0 +1,13 @@
+@media only screen and (min-width: 769px){
+    .classCompSettins {
+        width: 600px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .classCompSettins {
+        width: 100%;
+    }
+    .settingDiablob{
+        margin-top: 40px;
+    }
+}

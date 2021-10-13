@@ -1,0 +1,264 @@
+@media only screen and (min-width: 1200px) {
+  .fullscreenImages {
+    z-index: 30001;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(54, 54, 54);
+    font-weight: bold;
+    position: relative;
+    padding-top: 20px;
+  }
+  .fullscreenImages-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fullscreenImages-img img {
+    max-width: 85%;
+    max-height: 90%;
+    cursor: zoom-in;
+  }
+  .fullscreenImages-close {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 25px;
+    border-radius: 100%;
+    background-color: rgb(197, 197, 197);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+  .fullscreenImages-fullscreen {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 75px;
+    border-radius: 100%;
+    background-color: rgb(197, 197, 197);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+  .fullscreenImages-dowload {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 125px;
+    border-radius: 100%;
+    background-color: rgb(197, 197, 197);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+  }
+  .fullscreenImages-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 45%;
+    left: 75px;
+    border-radius: 100%;
+    background-color: rgb(197, 197, 197);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+  .fullscreenImages-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 45%;
+    right: 75px;
+    border-radius: 100%;
+    background-color: rgb(197, 197, 197);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+  .fullscreenImages {
+    z-index: 30001;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(54, 54, 54);
+    font-weight: bold;
+    position: relative;
+    padding-top: 20px;
+  }
+  .fullscreenImages-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fullscreenImages-img img {
+    max-width: 85%;
+    max-height: 90%;
+    cursor: zoom-in;
+  }
+  .fullscreenImages-close {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 15px;
+    border-radius: 100%;
+    background-color: rgb(197, 197, 197);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+  .fullscreenImages-fullscreen {
+    display: none;
+  }
+  .fullscreenImages-dowload {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 75px;
+    border-radius: 100%;
+    background-color: rgb(197, 197, 197);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+  }
+  .fullscreenImages-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 45%;
+    left: 15px;
+    border-radius: 100%;
+    background-color: rgb(197, 197, 197);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+  .fullscreenImages-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 45%;
+    right: 15px;
+    border-radius: 100%;
+    background-color: rgb(197, 197, 197);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .fullscreenImages {
+    z-index: 30001;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(54, 54, 54);
+    font-weight: bold;
+    position: relative;
+    padding-top: 20px;
+  }
+  .fullscreenImages-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fullscreenImages-img img {
+    max-width: 100%;
+    max-height: 90%;
+    cursor: zoom-in;
+  }
+  .fullscreenImages-close {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 15px;
+    border-radius: 100%;
+    background-color: rgba(197, 197, 197, 0.521);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+  .fullscreenImages-fullscreen {
+    
+    display: none;
+
+  }
+  .fullscreenImages-dowload {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 75px;
+    border-radius: 100%;
+    background-color: rgba(197, 197, 197, 0.521);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+  }
+  .fullscreenImages-dowload:hover{
+    color: black;
+  }
+  .fullscreenImages-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 48%;
+    left: 5px;
+    border-radius: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+  .fullscreenImages-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 48%;
+    right: 5px;
+    border-radius: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+}

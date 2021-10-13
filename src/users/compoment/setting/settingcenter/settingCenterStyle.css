@@ -1,0 +1,407 @@
+@media only screen and (min-width: 1200px) {
+  /* .seting-layout {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .seting-font-pale {
+    opacity: 0.6;
+    font-size: 10pt;
+  }
+  .seting-link {
+    font-size: 11pt;
+    color: blue;
+    text-decoration: underline;
+  }
+  .seting-link:hover {
+    text-decoration: underline;
+  } */
+  .seting-center {
+    width: 100%;
+    height: 100vh;
+    float: left;
+  }
+  .seting-center-scroll {
+    width: 98%;
+    height: 100%;
+    margin-left: 2%;
+    overflow-y: scroll;
+  }
+  #seting-center-scroll-style::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+
+  #seting-center-scroll-style::-webkit-scrollbar {
+    width: 7px;
+  }
+  .seting-center-scroll:hover::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+
+    background-color: rgb(160, 165, 170);
+  }
+  .seting-center-scroll-nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 16pt;
+    font-weight: 600;
+  }
+  .seting-center-scroll-content {
+    width: 100%;
+    height: 120%;
+  }
+  .seting-center-scroll-content-row-form {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+  }
+  .seting-center-scroll-content-row-form-input {
+    margin-left: 20px;
+    margin-top: 2%;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .seting-center-scroll-content-row-form-input-text {
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    border: 0.5px solid aliceblue;
+  }
+  .seting-center-scroll-content-row-form-input-text:focus {
+    border: 0.5px solid grey;
+  }
+  .seting-center-scroll-content-row-form-input-button {
+    margin-bottom: 3%;
+    background-color: violet;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    min-height: 30px;
+    min-width: 40px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .seting-center-scroll-content-row-form-input-button:hover {
+    background-color: blue;
+  }
+  .seting-center-scroll-footer {
+    width: 100%;
+    height: 10%;
+  }
+  .seting-center-scroll-content-row {
+    margin-top: 3%;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .seting-center-scroll-content-row:hover {
+    background-color: aqua;
+  }
+  .seting-center-scroll-content-row-th {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    margin-left: 1.5%;
+  }
+  .seting-center-scroll-content-row-td {
+    width: 55%;
+    /* overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; */
+    font-size: 11pt;
+    color: #9fa0a1;
+  }
+  .seting-center-scroll-content-row-link {
+    width: 15%;
+    font-weight: 400;
+    margin-right: 1%;
+    color: blue;
+  }
+  .seting-center-scroll-content-row-link:hover {
+    text-decoration: underline;
+  }
+
+  /* setting/privacy */
+  .seting-center-scroll-content-privacy-row {
+    width: 98%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+    margin-top: 1%;
+  }
+  .seting-center-scroll-content-privacy-th {
+    width: 35%;
+    height: 100%;
+  }
+  .seting-center-scroll-content-privacy-td {
+    font-size: 11pt;
+    font-weight: 400;
+    width: 65%;
+    min-height: 50px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 10 px;
+  }
+  .seting-center-scroll-content-privacy-th {
+    width: 23%;
+  }
+  .seting-center-scroll-content-privacy-td {
+    width: 60%;
+  }
+  .seting-center-scroll-content-privacy-td-label {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+  }
+
+  /* setting/info */
+
+  .seting-center-scroll-content-info-row {
+    width: 98%;
+    min-height: 50px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 3px;
+    margin-top: 4px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .seting-privacy-center-info-bodysmail {
+    width: 40%;
+    height: 80%;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    z-index: "100";
+    box-shadow: 0px 1px 5px rgba(197, 190, 174);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .seting-privacy-center-info-bodysmail-bottom {
+    width: 40%;
+    position: fixed;
+    bottom: 10%;
+    height: 80px;
+    border-top: 0.5px solid aqua;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  .seting-center-scroll-content-info-row:hover {
+    background-color: floralwhite;
+  }
+  .seting-center-scroll-content-info-row:active {
+    background-color: aqua;
+  }
+  .seting-center-scroll-content-info-row-th {
+    width: 80%;
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .seting-center-scroll-content-info-row-icon {
+    margin-right: 3px;
+  }
+  .seting-center-scroll-content-info-row-content {
+    width: 98%;
+    min-height: 100px;
+    margin-left: 5px;
+  }
+  .seting-center-scroll-content-info-row-content-td {
+    width: 98%;
+    min-height: 50px;
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 11pt;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+  }
+  .seting-center-scroll-content-info-row-content-td:hover {
+    background-color: aqua;
+  }
+  .seting-center-scroll-content-info-row-content-td-info {
+    display: flex;
+    align-items: center;
+    width: 80%;
+  }
+  .seting-center-scroll-content-info-row-content-td-open {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    font-size: 14pt;
+  }
+  .seting-center-scroll-content-info-row-content-td-open-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+
+  .seting-center-scroll-content-info-row-content-td-open-switch
+    .seting-center-scroll-content-info-row-content-td-open-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .seting-center-scroll-content-info-row-content-td-open-input-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+
+  .seting-center-scroll-content-info-row-content-td-open-input-slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+
+  .seting-center-scroll-content-info-row-content-td-open-input:checked
+    + .seting-center-scroll-content-info-row-content-td-open-input-slider {
+    background-color: #2196f3;
+  }
+
+  .seting-center-scroll-content-info-row-content-td-open-input:focus
+    + .seting-center-scroll-content-info-row-content-td-open-input-slider {
+    box-shadow: 0 0 1px #2196f3;
+  }
+
+  .seting-center-scroll-content-info-row-content-td-open-input:checked
+    + .seting-center-scroll-content-info-row-content-td-open-input-slider:before {
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(17px);
+  }
+  .seting-center-scroll-content-info-row-content-td-open-input-slider
+    .seting-center-scroll-content-info-row-content-td-open-input-round {
+    border-radius: 34px;
+  }
+
+  .seting-center-scroll-content-info-row-content-td-open-input-slider
+    .seting-center-scroll-content-info-row-content-td-open-input-round:before {
+    border-radius: 50%;
+  }
+
+  /* setting/security */
+
+  .seting-center-scroll-content-security-row {
+    width: 98%;
+    height: auto;
+    box-shadow: 0.5px 0.5px 0.5px aqua;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    margin-bottom: 3%;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+  }
+  .seting-center-scroll-content-security-row-nav {
+    font-weight: 600;
+    font-size: 13pt;
+    width: 100%;
+    height: 40px;
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+  }
+  .seting-center-scroll-content-security-row-content-row {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid gainsboro;
+  }
+  .seting-center-scroll-content-security-row-content-row-resiger {
+    width: 100%;
+    min-height: 130px;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+  }
+  .seting-center-scroll-content-security-row-content-row-resiger-form {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+  .seting-center-scroll-content-security-row-content-row-resiger-form-label {
+    width: 30%;
+    font-size: 12pt;
+  }
+  .seting-center-scroll-content-security-row-content-row-resiger-form-input {
+    width: 70%;
+    margin-right: 7%;
+    outline: none;
+    height: 33px;
+    border: none;
+    border-bottom: 0.5px solid orchid;
+    background-color: aquamarine;
+    font-size: 11pt;
+    display: flex;
+    align-items: center;
+  }
+
+  /* setting/suport */
+
+  .seting-center-scroll-content-support-row {
+    width: 95%;
+    min-height: 70px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0.5px 1px 3px grey;
+    margin-left: 2%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .seting-center-scroll-content-support-row-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .seting-center-scroll-content-support-row-label {
+    width: 80%;
+    min-height: 70px;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+}

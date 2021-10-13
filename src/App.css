@@ -1,0 +1,239 @@
+.App {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#mention-js .m6zwb4v {
+  color: rgb(0, 119, 255);
+  background-color: rgba(255, 255, 255, 0);
+  font-weight: 500;
+}
+#mention-js .m6zwb4v:hover {
+  text-decoration: underline rgb(0, 119, 255) solid;
+  color: rgb(124, 124, 124);
+}
+
+
+@media only screen and (min-width: 1200px) {
+  #snackbar-fooobe {
+    visibility: hidden; 
+    min-width: 250px;
+    max-width: 300px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 80000;
+    left: 5px;
+    bottom: 30px;
+    font-size: 17px;
+    box-shadow: 0px 1px 9px rgb(143, 143, 143);
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+  }
+  #snackbar-fooobe:hover{
+    visibility: visible;
+    background-color: rgb(179, 255, 251);
+    color: black;
+  }
+  #snackbar-fooobe.showSnackBarFooobe {
+    visibility: visible;
+    -webkit-animation: snackfooobe 0.5s, barfooobe 0.5s 4.5s;
+    animation: snackfooobe 0.5s, barfooobe 0.5s 4.5s;
+  }
+
+  @-webkit-keyframes snackfooobe {
+    from {
+      bottom: 0;
+      opacity: 0;
+    }
+    to {
+      bottom: 30px;
+      opacity: 1;
+    }
+  }
+
+  @keyframes snackfooobe {
+    from {
+      bottom: 0;
+      opacity: 0;
+    }
+    to {
+      bottom: 30px;
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes barfooobe {
+    from {
+      bottom: 30px;
+      opacity: 1;
+    }
+    to {
+      bottom: 0;
+      opacity: 0;
+    }
+  }
+
+  @keyframes barfooobe {
+    from {
+      bottom: 30px;
+      opacity: 1;
+    }
+    to {
+      bottom: 0;
+      opacity: 0;
+    }
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+  #snackbar-fooobe {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 80000;
+    left: 5px;
+    bottom: 30px;
+    font-size: 17px;
+    display: flex;
+    box-shadow: 0px 1px 9px rgb(143, 143, 143);
+    border-radius: 5px;
+  }
+  #snackbar-fooobe:hover{
+    visibility: visible;
+    background-color: rgb(179, 255, 251);
+    color: black;
+  }
+  #snackbar-fooobe.showSnackBarFooobe {
+    visibility: visible;
+    -webkit-animation: snackfooobe 0.5s, barfooobe 0.5s 4.5s;
+    animation: snackfooobe 0.5s, barfooobe 0.5s 4.5s;
+  }
+
+  @-webkit-keyframes snackfooobe {
+    from {
+      bottom: 0;
+      opacity: 0;
+    }
+    to {
+      bottom: 30px;
+      opacity: 1;
+    }
+  }
+
+  @keyframes snackfooobe {
+    from {
+      bottom: 0;
+      opacity: 0;
+    }
+    to {
+      bottom: 30px;
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes barfooobe {
+    from {
+      bottom: 30px;
+      opacity: 1;
+    }
+    to {
+      bottom: 0;
+      opacity: 0;
+    }
+  }
+
+  @keyframes barfooobe {
+    from {
+      bottom: 30px;
+      opacity: 1;
+    }
+    to {
+      bottom: 0;
+      opacity: 0;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  #snackbar-fooobe {
+    visibility: hidden;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 80000;
+    top: 0px;
+    font-size: 17px;
+    display: flex;
+    box-shadow: 0px 1px 9px rgb(143, 143, 143);
+    border-radius: 5px;
+  }
+  #snackbar-fooobe:hover{
+    visibility: visible;
+    background-color: rgb(179, 255, 251);
+    color: black;
+  }
+  #snackbar-fooobe.showSnackBarFooobe {
+    visibility: visible;
+    -webkit-animation: snackfooobe 0.5s, barfooobe 0.5s 4.5s;
+    animation: snackfooobe 0.5s, barfooobe 0.5s 4.5s;
+  }
+
+  @-webkit-keyframes snackfooobe {
+    from {
+      top: -30px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  @keyframes snackfooobe {
+    from {
+      top: -30px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes barfooobe {
+    from {
+      top: 0px;
+      opacity: 1;
+    }
+    to {
+      top: -30px;
+      opacity: 0;
+    }
+  }
+
+  @keyframes barfooobe {
+    from {
+      top: 0px;
+      opacity: 1;
+    }
+    to {
+      top: -30px;
+      opacity: 0;
+    }
+  }
+}

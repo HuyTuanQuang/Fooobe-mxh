@@ -1,0 +1,1471 @@
+.homestory-input2 {
+  display: none;
+}
+/* .homestory-title-name-tick-span{
+  float: left;
+}
+.homestory-title-name-icon{
+  float: left;
+}
+.homestory-title-name-link-span{
+  float: left;
+} */
+
+@media only screen and (min-width: 1200px) {
+  .story-box {
+    max-width: 600px;
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+  .remove-story {
+    max-width: 600px;
+    margin-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .story-container {
+    box-shadow: 0 0 1px 1px #d3d4d4;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .story-container2 {
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2c2c2c;
+  }
+  .story-container-loadding {
+    box-shadow: 0 0 1px 1px #d3d4d4;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+    height: 300px;
+  }
+  .story-container-loadding2 {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #2c2c2c;
+    height: 300px;
+  }
+  .homestory-title {
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .homestory-title-avatar {
+    width: 8%;
+    height: 100%;
+  }
+
+  .homestory-title-name {
+    min-width: 72%;
+    height: 100%;
+  }
+  .homestory-title-setting {
+    width: 20%;
+    float: right;
+    height: 100%;
+    position: relative;
+  }
+  .homestory-title-setting-menu {
+    width: 250px;
+    min-height: 200px;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 50px;
+    right: 0px;
+    margin-right: 10px;
+    box-shadow: 0 0 10px 1px #d3d4d4;
+    border-radius: 10px;
+    padding: 5px;
+    display: none;
+  }
+  .homestory-title-setting-menu:after {
+    content: " ";
+    position: absolute;
+    right: 8px;
+    top: -7px;
+    border-top: none;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid rgb(253, 252, 252);
+  }
+  .homestory-title-avatar-link {
+    border-radius: 23px;
+    height: 41px;
+    width: 41px;
+  }
+  .homestory-title-avatar-link .avatars {
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    margin: 1px;
+    border: 2px solid rgb(0, 110, 255);
+  }
+  .homestory-title-name-link {
+    font-size: 17px;
+    height: 50%;
+    min-width: 100px;
+  }
+  .homestory-title-name-icon {
+    height: 40%;
+    width: 100%;
+    display: flex;
+  }
+  .homestory-title-name-icon-time {
+    font-style: italic;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+    margin-right: 3px;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  .homestory-title-name-icon-time:hover {
+    opacity: 1;
+  }
+  .homestory-title-name-icon a {
+    font-style: italic;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+    margin-right: 3px;
+    cursor: pointer;
+  }
+  .homestory-title-name-icon-type-post {
+    background-color: rgb(234, 253, 255);
+    font-size: 8px;
+  }
+  .homestory-title-name-icon .homestory-title-name-icon-follow {
+    background-color: rgb(234, 253, 255);
+    text-decoration: none;
+    font-size: 12px;
+    color: #424343;
+  }
+
+  .homestory-title-name-link-real-popup {
+    z-index: 1000;
+    width: 400px;
+    min-height: 150px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0 0 2px 1px #d3d4d4;
+    border-radius: 10px;
+    display: none;
+    padding: 5px;
+    top: 23px;
+    left: -100px;
+  }
+  .homestory-title-name-link-real-popup-2 {
+    z-index: 1000;
+    width: 400px;
+    min-height: 150px;
+    background-color: #18191a;
+    position: absolute;
+    box-shadow: 0 0 2px 1px rgb(97, 97, 97);
+    border-radius: 10px;
+    display: none;
+    padding: 5px;
+    top: 23px;
+    left: -100px;
+  }
+  .homestory-title-name-link-real-popup-profile {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    padding-bottom: 10px;
+  }
+  .homestory-title-name-link-real-popup-profile-avt {
+    width: 150px;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+  }
+  .homestory-title-name-link-real-popup-profile-avatars {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+  }
+  .homestory-title-name-link-real-popup-profile-title {
+    width: 250px;
+    height: 100%;
+    padding-top: 10px;
+  }
+  .homestory-title-name-link-real-popup-profile-title-name {
+    width: 100%;
+    min-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .homestory-title-name-link-real-popup-profile-title-conten {
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+  }
+  .homestory-title-name-link-real-popup-profile-title-conten-text {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .homestory-title-name-link-real-popup-profile-title-conten-text-interres {
+    float: left;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: rgb(224, 224, 224);
+    margin: 2px;
+  }
+  .homestory-title-name-link-real-popup-profile-title-conten-text-interres-2 {
+    float: left;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: rgb(65, 65, 65);
+    margin: 2px;
+  }
+  .homestory-title-name-link-real-popup-profile-title-conten-icon {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+  }
+  .homestory-title-name-link-real-popup-button {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+  }
+  .homestory-title-name-link-real-popup-button-2 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+  }
+  .homestory-title-name-link-real-popup-button-css {
+    margin: 3px;
+    background-color: rgb(142, 228, 240);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 30px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .homestory-title-name-link-real-popup-button-cs2 {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(142, 228, 240);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+  }
+  .homestory-title-name-link-real-popup-button-css-icon {
+    margin-right: 3px;
+    margin-top: -3px;
+    color: white;
+  }
+  .homestory-title-name-link-real-popup-button-css-icon-2 {
+    margin-top: -4px;
+    color: rgb(255, 255, 255);
+  }
+  .homestory-title-name-tick-real-popup {
+    z-index: 1000;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(138, 135, 135, 0.632);
+    position: absolute;
+    box-shadow: 0 0 2px 1px #d3d4d4;
+    border-radius: 10px;
+    display: none;
+    padding: 5px;
+    top: 0px;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  .homestory-title-name-link-span:hover .homestory-title-name-link-real-popup {
+    display: block;
+  }
+  .homestory-title-name-link-span:hover
+    .homestory-title-name-link-real-popup-2 {
+    display: block;
+  }
+  .homestory-title-name-tick-span:hover .homestory-title-name-tick-real-popup {
+    display: block;
+  }
+
+  .homestory-title-name-link-span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  /* Đên content */
+  .homestory-content {
+    min-height: 10px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .homestory-image {
+    min-height: 10px;
+    max-height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .docs-status-time-bottom-count {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .docs-status-time-bottom-count-react {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+  }
+  .docs-status-time-bottom-count-comment {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+    padding-right: 5px;
+  }
+  .icon-count-story {
+    width: 17px;
+    height: 17px;
+  }
+  .docs-status-time-bottom-count-react div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+  }
+  .open-view-react-story,
+  .open-view-comment-story,
+  .open-view-share-story {
+    cursor: pointer;
+  }
+  .open-view-react-story:hover,
+  .open-view-comment-story:hover,
+  .open-view-share-story:hover {
+    text-decoration: underline;
+  }
+  .docs-status-time-bottom-btcx {
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+  }
+  .docs-status-time-bottom-btcx-for {
+    display: flex;
+    margin-top: 3px;
+    width: 100%;
+    height: 40px;
+    color: rgb(170, 170, 170);
+    cursor: pointer;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .docs-status-time-bottom-btcx-for-button:hover {
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+  }
+  .docs-status-time-bottom-btcx-for-button2:hover {
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+  }
+  .homestory-comment {
+    width: 100%;
+    min-height: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .homestory-input {
+    min-height: 10px;
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .homestory-input-avatar {
+    width: 10%;
+    height: 45px;
+    border-radius: 30px;
+  }
+  .homestory-input-avatar img {
+    width: 45px;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid salmon;
+    margin-top: 0.3px;
+  }
+  .homestory-input-icon {
+    display: flex;
+  }
+  .comment-style-container-story-cmt-create-div-input {
+    min-height: 30px;
+    max-width: 80%;
+    padding: 10px;
+    min-width: 70.3%;
+  }
+  .homestory-input-mobile {
+    display: none;
+  }
+  .title-story-pc {
+    display: block;
+    text-transform: none;
+    color: rgb(124, 124, 124);
+  }
+  .title-story-moblie {
+    display: none;
+  }
+  .homestory-input-containerr {
+    width: 100%;
+    display: flex;
+    border: 0.1px solid rgba(128, 128, 128, 0.322);
+    border-radius: 25px;
+    padding: 5px;
+  }
+  /*  */
+  .pc-reactions {
+    margin-left: -30px;
+    margin-top: -4px;
+  }
+  .reactions-css {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+  }
+  .homestory-input-icon-send-ipad {
+    display: none;
+  }
+  .homestory-input-icon-send-mobile {
+    display: none;
+  }
+  /* Lesson */
+  .homestory-image-lesson {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+    position: relative;
+  }
+  .homestory-image-lesson-click{
+    position: absolute;
+    bottom: 8px;
+    right: 9px;
+    width: 100px;
+    height: 35px;
+    z-index: 1;
+    background-color: rgb(144, 251, 255);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px rgb(88, 88, 88);
+  }
+  .homestory-image-lesson-img {
+    width: 200px;
+    height: 300px;
+  }
+  .homestory-image-lesson-title {
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+    min-height: 50px;
+  }
+  .homestory-image-lesson-chip{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .homestory-image-lesson-chip-css{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 0.1px solid rgb(153, 153, 153);
+    border-radius: 20px;
+    height: 25px;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .homestory-image-lesson-chip-css:hover{
+    box-shadow: 0px 0px 3px cyan;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+  .story-box {
+    width: 98%;
+    margin-top: 40px;
+    margin: 0 auto;
+  }
+  .remove-story {
+    width: 98%;
+    margin-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .story-container {
+    box-shadow: 0 0 1px 1px #d3d4d4;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .story-container2 {
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2c2c2c;
+  }
+  .story-container-loadding {
+    box-shadow: 0 0 1px 1px #d3d4d4;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+    height: 250px;
+  }
+  .story-container-loadding2 {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #2c2c2c;
+    height: 250px;
+  }
+  .homestory-title {
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .homestory-title-avatar {
+    width: 10%;
+    height: 100%;
+  }
+
+  .homestory-title-name {
+    min-width: 70%;
+    height: 100%;
+  }
+  .homestory-title-setting {
+    width: 20%;
+    float: right;
+    height: 100%;
+    position: relative;
+  }
+  .homestory-title-setting-menu {
+    width: 250px;
+    min-height: 200px;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 50px;
+    right: 0px;
+    margin-right: 10px;
+    box-shadow: 0 0 10px 1px #d3d4d4;
+    border-radius: 10px;
+    padding: 5px;
+    display: none;
+  }
+  .homestory-title-setting-menu:after {
+    content: " ";
+    position: absolute;
+    right: 8px;
+    top: -7px;
+    border-top: none;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid rgb(253, 252, 252);
+  }
+  .homestory-title-avatar-link {
+    border-radius: 23px;
+    height: 41px;
+    width: 41px;
+  }
+  .comment-style-container-story-cmt-create-div-input {
+    min-height: 30px;
+    max-width: 60%;
+    padding: 10px;
+    min-width: 60.3%;
+  }
+  .homestory-title-avatar-link .avatars {
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    margin: 1px;
+    border: 1px solid rgb(76, 0, 255);
+  }
+  .homestory-title-name-link {
+    font-size: 17px;
+    height: 50%;
+    min-width: 100px;
+  }
+  .homestory-title-name-icon {
+    height: 40%;
+    width: 100%;
+    display: flex;
+  }
+  .homestory-title-name-icon-time {
+    font-style: italic;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+    margin-right: 3px;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  .homestory-title-name-icon-time:hover {
+    opacity: 1;
+  }
+  .homestory-title-name-icon a {
+    font-style: italic;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+    margin-right: 3px;
+    cursor: pointer;
+  }
+  .homestory-title-name-icon-type-post {
+    background-color: rgb(234, 253, 255);
+    font-size: 8px;
+  }
+  .homestory-title-name-icon .homestory-title-name-icon-follow {
+    background-color: rgb(234, 253, 255);
+    text-decoration: none;
+    font-size: 12px;
+    color: #424343;
+  }
+
+  .homestory-title-name-link-real-popup {
+    z-index: 1000;
+    min-width: 300px;
+    min-height: 150px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0 0 2px 1px #d3d4d4;
+    border-radius: 10px;
+    display: none;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .homestory-title-name-tick-real-popup {
+    z-index: 1000;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(138, 135, 135, 0.632);
+    position: absolute;
+    box-shadow: 0 0 2px 1px #d3d4d4;
+    border-radius: 10px;
+    display: none;
+    padding: 5px;
+    top: 0px;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  .homestory-title-name-link-real-popup-2 {
+    z-index: 1000;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(138, 135, 135, 0.632);
+    position: absolute;
+    box-shadow: 0 0 2px 1px #d3d4d4;
+    border-radius: 10px;
+    display: none;
+    padding: 5px;
+    top: 0px;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  .homestory-title-name-tick-span:hover .homestory-title-name-tick-real-popup {
+    display: block;
+  }
+  /* Đên content */
+  .homestory-content {
+    min-height: 10px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .homestory-image {
+    min-height: 10px;
+    max-height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .docs-status-time-bottom-count {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .docs-status-time-bottom-count-react {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+  }
+  .docs-status-time-bottom-count-comment {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+    padding-right: 5px;
+  }
+  .icon-count-story {
+    width: 17px;
+    height: 17px;
+  }
+  .docs-status-time-bottom-count-react div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+  }
+  .open-view-react-story,
+  .open-view-comment-story,
+  .open-view-share-story {
+    cursor: pointer;
+  }
+  .open-view-react-story:hover,
+  .open-view-comment-story:hover,
+  .open-view-share-story:hover {
+    text-decoration: underline;
+  }
+  .docs-status-time-bottom-btcx {
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+  }
+  .docs-status-time-bottom-btcx-for {
+    display: flex;
+    margin-top: 3px;
+    width: 100%;
+    height: 40px;
+    color: rgb(170, 170, 170);
+    cursor: pointer;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .docs-status-time-bottom-btcx-for-button:hover {
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+  }
+  .docs-status-time-bottom-btcx-for-button2:hover {
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+  }
+  .homestory-comment {
+    min-height: 10px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .homestory-input {
+    min-height: 10px;
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .homestory-input-avatar {
+    width: 13%;
+    height: 45px;
+    border-radius: 30px;
+  }
+  .homestory-input-avatar img {
+    width: 45px;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid salmon;
+    margin-top: 0.3px;
+  }
+  .homestory-input-icon {
+    display: flex;
+  }
+  .homestory-input-mobile {
+    display: none;
+  }
+  .title-story-pc {
+    display: block;
+    text-transform: none;
+    color: rgb(124, 124, 124);
+  }
+  .title-story-moblie {
+    display: none;
+  }
+  .homestory-input-containerr {
+    width: 100%;
+    display: flex;
+    border: 0.1px solid rgba(128, 128, 128, 0.322);
+    border-radius: 25px;
+    padding: 5px;
+  }
+  .pc-reactions {
+    margin-left: -30px;
+    margin-top: -4px;
+  }
+  .reactions-css {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+  }
+  .homestory-input-icon-send-ipad {
+    display: block;
+  }
+  .homestory-input-icon-send-mobile {
+    display: none;
+  }
+  /* Lesson */
+  .homestory-image-lesson {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+    position: relative;
+  }
+  .homestory-image-lesson-click{
+    position: absolute;
+    bottom: 8px;
+    right: 9px;
+    width: 100px;
+    height: 35px;
+    z-index: 1;
+    background-color: rgb(144, 251, 255);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px rgb(88, 88, 88);
+  }
+  .homestory-image-lesson-img {
+    width: 200px;
+    height: 300px;
+  }
+  .homestory-image-lesson-title {
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+    min-height: 50px;
+  }
+  .homestory-image-lesson-chip{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .homestory-image-lesson-chip-css{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 0.1px solid rgb(153, 153, 153);
+    border-radius: 20px;
+    height: 25px;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .homestory-image-lesson-chip-css:hover{
+    box-shadow: 0px 0px 3px cyan;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .story-box {
+    width: 98%;
+    margin-top: 40px;
+    margin: 0 auto;
+  }
+  .remove-story {
+    width: 98%;
+    margin-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .story-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .story-container2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2c2c2c;
+  }
+  .homestory-title {
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+  }
+  .homestory-title-avatar {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .story-container-loadding {
+    box-shadow: 0 0 1px 1px #d3d4d4;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+    height: 200px;
+  }
+  .story-container-loadding2 {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #2c2c2c;
+    height: 200px;
+  }
+
+  .homestory-title-name {
+    min-width: 60%;
+    height: 100%;
+  }
+  .homestory-title-setting {
+    width: 100%;
+    float: right;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+  }
+  .homestory-title-setting-menu {
+    width: 250px;
+    min-height: 200px;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 50px;
+    right: 0px;
+    margin-right: 10px;
+    box-shadow: 0 0 10px 1px #d3d4d4;
+    border-radius: 10px;
+    padding: 5px;
+    display: none;
+  }
+  .homestory-title-setting-menu:after {
+    content: " ";
+    position: absolute;
+    right: 8px;
+    top: -7px;
+    border-top: none;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid rgb(253, 252, 252);
+  }
+  .homestory-title-avatar-link {
+    border-radius: 23px;
+    height: 41px;
+    width: 41px;
+  }
+  .homestory-title-avatar-link .avatars {
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    margin: 1px;
+    border: 1px solid rgb(76, 0, 255);
+  }
+  .homestory-title-name-link {
+    font-size: 15px;
+    height: 50%;
+    min-width: 60%;
+  }
+  .homestory-title-name-icon {
+    height: 40%;
+    width: 100%;
+    display: flex;
+  }
+  .homestory-title-name-icon-time {
+    font-style: italic;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+    margin-right: 3px;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  .homestory-title-name-icon-time:hover {
+    opacity: 1;
+  }
+  .homestory-title-name-icon a {
+    font-style: italic;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+    margin-right: 3px;
+    cursor: pointer;
+  }
+  .homestory-title-name-icon-type-post {
+    background-color: rgb(234, 253, 255);
+    font-size: 8px;
+  }
+  .homestory-title-name-icon .homestory-title-name-icon-follow {
+    background-color: rgb(234, 253, 255);
+    text-decoration: none;
+    font-size: 12px;
+    color: #424343;
+  }
+
+  .homestory-title-name-link-real-popup {
+    z-index: 1000;
+    min-width: 300px;
+    min-height: 150px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0 0 2px 1px #d3d4d4;
+    border-radius: 10px;
+    display: none;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .homestory-title-name-link-real-popup-2 {
+    z-index: 1000;
+    min-width: 300px;
+    min-height: 150px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0 0 2px 1px #d3d4d4;
+    border-radius: 10px;
+    display: none;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .homestory-title-name-tick-real-popup {
+    z-index: 1000;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(138, 135, 135, 0.632);
+    position: absolute;
+    box-shadow: 0 0 2px 1px #d3d4d4;
+    border-radius: 10px;
+    display: none;
+    padding: 5px;
+    top: 0px;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  .homestory-title-name-tick-span:hover .homestory-title-name-tick-real-popup {
+    display: none;
+  }
+  /* Đên content */
+  .homestory-content {
+    min-height: 10px;
+    width: 100%;
+  }
+  .homestory-image {
+    min-height: 10px;
+    max-height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .docs-status-time-bottom-count {
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .docs-status-time-bottom-count-react {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgb(94, 94, 94);
+  }
+  .docs-status-time-bottom-count-comment {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgb(94, 94, 94);
+    padding-right: 5px;
+  }
+  .icon-count-story {
+    width: 13px;
+    height: 13px;
+  }
+  .docs-status-time-bottom-count-react div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+  }
+  .open-view-react-story,
+  .open-view-comment-story,
+  .open-view-share-story {
+    cursor: pointer;
+  }
+  .open-view-react-story:hover,
+  .open-view-comment-story:hover,
+  .open-view-share-story:hover {
+    text-decoration: underline;
+  }
+  .docs-status-time-bottom-btcx {
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+  }
+  .docs-status-time-bottom-btcx-for {
+    display: flex;
+    margin-top: 3px;
+    width: 100%;
+    height: 40px;
+    color: rgb(170, 170, 170);
+    cursor: pointer;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 13px;
+  }
+  .docs-status-time-bottom-btcx-for-button:hover {
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+  }
+  .docs-status-time-bottom-btcx-for-button2:hover {
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+  }
+  .homestory-comment {
+    min-height: 10px;
+    width: 100%;
+  }
+  .homestory-input {
+    min-height: 10px;
+    width: 100%;
+    margin-top: 5px;
+  }
+  .homestory-input-icon {
+    width: 100%;
+    display: flex;
+  }
+  .homestory-input-avatar {
+    width: 10%;
+    height: 45px;
+    border-radius: 30px;
+    display: none;
+  }
+  .homestory-input-avatar img {
+    width: 45px;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid salmon;
+    margin-top: 0.3px;
+    display: none;
+  }
+  .homestory-input-mobile {
+    display: none;
+  }
+  .comment-style-container-story-cmt-create-div {
+    width: 100%;
+    min-height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .comment-style-container-story-cmt-create-div-input {
+    width: 100%;
+    min-height: 40px;
+    border: 0.1px solid rgba(128, 128, 128, 0.322);
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+  }
+  .homestory-input-containerr {
+    margin-top: 10px;
+  }
+  .title-story-pc {
+    display: block;
+    text-transform: none;
+    color: rgb(124, 124, 124);
+  }
+  .title-story-moblie {
+    display: none;
+  }
+  .mobile-reactions {
+    margin-left: 50px;
+    margin-top: -10px;
+  }
+  .reactions-css {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+  }
+  .homestory-input-icon-send-ipad {
+    display: none;
+  }
+  .homestory-input-icon-send-mobile {
+    display: block;
+  }
+  /* Lesson */
+  .homestory-image-lesson {
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+    position: relative;
+  }
+  .homestory-image-lesson-click{
+    position: absolute;
+    bottom: 8px;
+    right: 9px;
+    width: 100px;
+    height: 35px;
+    z-index: 1;
+    background-color: rgb(144, 251, 255);
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px rgb(88, 88, 88);
+    display: none;
+  }
+
+  .homestory-image-lesson-content{
+    font-size: 12px;
+  }
+  .homestory-image-lesson-img {
+    width: 100px;
+    height: 150px;
+  }
+  .homestory-image-lesson-title {
+    font-weight: 500;
+    font-size: 14px;
+    min-height: 20px;
+  }
+  .homestory-image-lesson-chip{
+    min-height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .homestory-image-lesson-chip-css{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: 0.1px solid rgb(153, 153, 153);
+    border-radius: 20px;
+    height: 25px;
+    font-weight: 500;
+    font-size: 9px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+  }
+  .homestory-image-lesson-chip-css:hover{
+    box-shadow: 0px 0px 3px cyan;
+  }
+}
+
+/*  */
+.upload-image-sticker-gif-file-to-commetn {
+  width: 100%;
+  min-height: 10px;
+  margin-top: 5px;
+  position: relative;
+}
+.close-icon {
+  cursor: pointer;
+  z-index: 1000;
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  box-shadow: 0 0 2px 1px rgb(133, 132, 132);
+  border-radius: 15px;
+  top: 0px;
+  right: 0px;
+  margin-right: 15px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
+}
+.close-iconz {
+  cursor: pointer;
+  z-index: 1000;
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  box-shadow: 0 0 2px 1px rgb(133, 132, 132);
+  border-radius: 15px;
+  top: 20px;
+  right: 0px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
+}
+/* Pure loading */
+/* .newsLodding {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: transparent;
+  box-shadow: 0 -18px 0 0 #80f0ff, 12.72984px -12.72984px 0 0 #80f0ff,
+    18px 0 0 0 #80f0ff, 12.72984px 12.72984px 0 0 rgba(152, 128, 255, 0),
+    0 18px 0 0 rgba(152, 128, 255, 0),
+    -12.72984px 12.72984px 0 0 rgba(152, 128, 255, 0),
+    -18px 0 0 0 rgba(152, 128, 255, 0),
+    -12.72984px -12.72984px 0 0 rgba(152, 128, 255, 0);
+  animation: newsLodding 1.5s infinite linear;
+}
+
+@keyframes newsLodding {
+  0%,
+  100% {
+    box-shadow: 0 -18px 0 0 #80f0ff, 12.72984px -12.72984px 0 0 #80f0ff,
+      18px 0 0 0 #80f0ff, 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0),
+      0 18px 0 -5px rgba(152, 128, 255, 0),
+      -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0),
+      -18px 0 0 -5px rgba(152, 128, 255, 0),
+      -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);
+  }
+  12.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.72984px -12.72984px 0 0 #80f0ff, 18px 0 0 0 #80f0ff,
+      12.72984px 12.72984px 0 0 #80f0ff, 0 18px 0 -5px rgba(152, 128, 255, 0),
+      -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0),
+      -18px 0 0 -5px rgba(152, 128, 255, 0),
+      -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);
+  }
+  25% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 0 #80f0ff,
+      12.72984px 12.72984px 0 0 #80f0ff, 0 18px 0 0 #80f0ff,
+      -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0),
+      -18px 0 0 -5px rgba(152, 128, 255, 0),
+      -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);
+  }
+  37.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0),
+      18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 0 #80f0ff,
+      0 18px 0 0 #80f0ff, -12.72984px 12.72984px 0 0 #80f0ff,
+      -18px 0 0 -5px rgba(152, 128, 255, 0),
+      -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);
+  }
+  50% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0),
+      18px 0 0 -5px rgba(152, 128, 255, 0),
+      12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 0 #80f0ff,
+      -12.72984px 12.72984px 0 0 #80f0ff, -18px 0 0 0 #80f0ff,
+      -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);
+  }
+  62.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0),
+      18px 0 0 -5px rgba(152, 128, 255, 0),
+      12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0),
+      0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 0 #80f0ff,
+      -18px 0 0 0 #80f0ff, -12.72984px -12.72984px 0 0 #80f0ff;
+  }
+  75% {
+    box-shadow: 0 -18px 0 0 #80f0ff,
+      12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0),
+      18px 0 0 -5px rgba(152, 128, 255, 0),
+      12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0),
+      0 18px 0 -5px rgba(152, 128, 255, 0),
+      -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 0 #80f0ff,
+      -12.72984px -12.72984px 0 0 #80f0ff;
+  }
+  87.5% {
+    box-shadow: 0 -18px 0 0 #80f0ff, 12.72984px -12.72984px 0 0 #80f0ff,
+      18px 0 0 -5px rgba(152, 128, 255, 0),
+      12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0),
+      0 18px 0 -5px rgba(152, 128, 255, 0),
+      -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0),
+      -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 0 #80f0ff;
+  }
+} */

@@ -1,0 +1,41 @@
+{
+    "left_menu": {
+        "function_1": "Xu hướng",
+        "function_2": "Theo dõi"
+    },
+    "home_status":{
+        "hello_1": "ơi, viết điều bạn nghĩ đi?",
+        "hello_2": "Ảnh/Video",
+        "hello_3": "Cảm xúc",
+        "hello_4": "Check in",
+        "hello_5": "Đang đăng",
+        "hello_6": "Tạo bài viết",
+        "hello_7": "Bài viết công khai",
+        "hello_8": " ơi, ",
+        "hello_9": "Ảnh",
+        "hello_10": "Video",
+        "hello_11": "Check in",
+        "hello_12": "Âm nhạc",
+        "hello_13": "Câu hỏi",
+        "hello_14": "Bán hàng",
+        "hello_15": "Sự kiện trong đời",
+        "hello_16": "Câu chuyện của bạn",
+        "hello_17": "Tâm trạng",
+        "hello_18": "ĐĂNG",
+        "hello_19": "Chức năng này chưa hoàn thiện, sẽ áp dụng trong thời gian tới.",
+        "hello_20": "Chọn một đoạn nhạc, nó sẽ được gán vào bài viết của bạn.",
+        "hello_21": "viết điều bạn nghĩ đi?",
+        "hello_22": "hãy viết một chút thông tin về sản phẩm nhé!",
+        "hello_23": "bạn đang nghĩ gì đó?",
+        "hello_24": "Tiêu đề Video của bạn",
+        "hello_25": "video này viết về điều gì?",
+        "hello_26": "Tên sản phẩm",
+        "hello_27": "Nếu bạn bán hàng cho doanh nghiệp, hãy dán link",
+        "hello_28": "Giá sản phẩm",
+        "hello_29": "hãy viết một chút thông tin về sản phẩm nhé!",
+        "hello_30": "hãy viết câu hỏi của bạn vào đây, mọi người cùng thảo luận nhé!",
+        "hello_31": "Tên câu chuyện",
+        "hello_32": "hãy viết tóm tắt câu chuyện vào đây!"
+    }
+    
+}

@@ -1,0 +1,750 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;900&display=swap");
+@media only screen and (min-width: 1200px) {
+  .fuction-area-tgn-top {
+    height: 150px;
+    width: 96%;
+    margin: 0 auto;
+  }
+  .fuction-area-tgn-bottom {
+    min-height: 150px;
+    width: 96%;
+    margin: 0 auto;
+  }
+  .fuction-area-tgn-top-header {
+    width: 100%;
+    height: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  .fuction-area-tgn-top-title {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    color: rgb(143, 143, 143);
+  }
+  .fuction-area-tgn-top-button {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .fuction-area-tgn-bottom-td {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .fuction-area-tgn-top-button-item {
+    margin-left: 5px;
+  }
+  .fuction-area-tgn-bottom-td .haveto {
+    text-decoration: none;
+    border: 0.1px solid rgb(72, 136, 255);
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 50px;
+    cursor: pointer;
+  }
+  .fuction-area-tgn-bottom-td .haveto:hover {
+    background-color: rgba(193, 255, 255, 0.367);
+  }
+  .fuction-area-tgn-none-title {
+    width: 96%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .fuction-area-tgn-none-button {
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .fuction-area-tgn-none-button-input {
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    border: 0.1px solid grey;
+    outline: none;
+  }
+  .fuction-area-tgn-none-button-button {
+    width: 150px;
+  }
+
+  /*  */
+  .fuction-area-tgn-top-button-random-code-1::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter1 1s linear infinite alternate;
+    counter-reset: count 0;
+  }
+  .fuction-area-tgn-top-button-random-code-2::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter2 1s linear infinite alternate;
+    counter-reset: count 0;
+  }
+  .fuction-area-tgn-top-button-random-code-3::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter3 1s linear infinite alternate;
+    counter-reset: count 0;
+  }
+  .fuction-area-tgn-top-button-random-code-4::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter4 1s linear infinite alternate;
+    counter-reset: count 0;
+  }
+
+  @keyframes counter1 {
+    0% {
+      counter-increment: count 0;
+    }
+    10% {
+      counter-increment: count 1;
+    }
+    20% {
+      counter-increment: count 2;
+    }
+    30% {
+      counter-increment: count 3;
+    }
+    40% {
+      counter-increment: count 4;
+    }
+    50% {
+      counter-increment: count 5;
+    }
+    60% {
+      counter-increment: count 6;
+    }
+    70% {
+      counter-increment: count 7;
+    }
+    80% {
+      counter-increment: count 8;
+    }
+    90% {
+      counter-increment: count 9;
+    }
+    100% {
+      counter-increment: count 0;
+    }
+  }
+  @keyframes counter2 {
+    0% {
+      counter-increment: count 5;
+    }
+    10% {
+      counter-increment: count 3;
+    }
+    20% {
+      counter-increment: count 9;
+    }
+    30% {
+      counter-increment: count 1;
+    }
+    40% {
+      counter-increment: count 7;
+    }
+    50% {
+      counter-increment: count 6;
+    }
+    60% {
+      counter-increment: count 2;
+    }
+    70% {
+      counter-increment: count 8;
+    }
+    80% {
+      counter-increment: count 0;
+    }
+    90% {
+      counter-increment: count 3;
+    }
+    100% {
+      counter-increment: count 0;
+    }
+  }
+  @keyframes counter3 {
+    0% {
+      counter-increment: count 9;
+    }
+    10% {
+      counter-increment: count 8;
+    }
+    20% {
+      counter-increment: count 7;
+    }
+    30% {
+      counter-increment: count 0;
+    }
+    40% {
+      counter-increment: count 5;
+    }
+    50% {
+      counter-increment: count 2;
+    }
+    60% {
+      counter-increment: count 3;
+    }
+    70% {
+      counter-increment: count 1;
+    }
+    80% {
+      counter-increment: count 6;
+    }
+    90% {
+      counter-increment: count 4;
+    }
+    100% {
+      counter-increment: count 9;
+    }
+  }
+  @keyframes counter4 {
+    0% {
+      counter-increment: count 3;
+    }
+    10% {
+      counter-increment: count 1;
+    }
+    20% {
+      counter-increment: count 2;
+    }
+    30% {
+      counter-increment: count 7;
+    }
+    40% {
+      counter-increment: count 4;
+    }
+    50% {
+      counter-increment: count 9;
+    }
+    60% {
+      counter-increment: count 5;
+    }
+    70% {
+      counter-increment: count 8;
+    }
+    80% {
+      counter-increment: count 6;
+    }
+    90% {
+      counter-increment: count 2;
+    }
+    100% {
+      counter-increment: count 1;
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+  .fuction-area-tgn-top {
+    height: 150px;
+    width: 96%;
+    margin: 0 auto;
+  }
+  .fuction-area-tgn-bottom {
+    min-height: 150px;
+    width: 96%;
+    margin: 0 auto;
+  }
+  .fuction-area-tgn-top-header {
+    width: 100%;
+    height: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  .fuction-area-tgn-top-title {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    color: rgb(143, 143, 143);
+  }
+  .fuction-area-tgn-top-button {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .fuction-area-tgn-bottom-td {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .fuction-area-tgn-top-button-item {
+    margin-left: 5px;
+  }
+  .fuction-area-tgn-bottom-td .haveto {
+    text-decoration: none;
+    border: 0.1px solid rgb(72, 136, 255);
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 50px;
+    cursor: pointer;
+  }
+  .fuction-area-tgn-bottom-td .haveto:hover {
+    background-color: rgba(193, 255, 255, 0.367);
+  }
+  .fuction-area-tgn-none-title {
+    width: 96%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .fuction-area-tgn-none-button {
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .fuction-area-tgn-none-button-input {
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    border: 0.1px solid grey;
+    outline: none;
+  }
+  .fuction-area-tgn-none-button-button {
+    width: 150px;
+  }
+
+  /*  */
+  .fuction-area-tgn-top-button-random-code-1::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter1 1s linear infinite alternate;
+    counter-reset: count 0;
+  }
+  .fuction-area-tgn-top-button-random-code-2::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter2 1s linear infinite alternate;
+    counter-reset: count 0;
+  }
+  .fuction-area-tgn-top-button-random-code-3::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter3 1s linear infinite alternate;
+    counter-reset: count 0;
+  }
+  .fuction-area-tgn-top-button-random-code-4::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter4 1s linear infinite alternate;
+    counter-reset: count 0;
+  }
+
+  @keyframes counter1 {
+    0% {
+      counter-increment: count 0;
+    }
+    10% {
+      counter-increment: count 1;
+    }
+    20% {
+      counter-increment: count 2;
+    }
+    30% {
+      counter-increment: count 3;
+    }
+    40% {
+      counter-increment: count 4;
+    }
+    50% {
+      counter-increment: count 5;
+    }
+    60% {
+      counter-increment: count 6;
+    }
+    70% {
+      counter-increment: count 7;
+    }
+    80% {
+      counter-increment: count 8;
+    }
+    90% {
+      counter-increment: count 9;
+    }
+    100% {
+      counter-increment: count 0;
+    }
+  }
+  @keyframes counter2 {
+    0% {
+      counter-increment: count 5;
+    }
+    10% {
+      counter-increment: count 3;
+    }
+    20% {
+      counter-increment: count 9;
+    }
+    30% {
+      counter-increment: count 1;
+    }
+    40% {
+      counter-increment: count 7;
+    }
+    50% {
+      counter-increment: count 6;
+    }
+    60% {
+      counter-increment: count 2;
+    }
+    70% {
+      counter-increment: count 8;
+    }
+    80% {
+      counter-increment: count 0;
+    }
+    90% {
+      counter-increment: count 3;
+    }
+    100% {
+      counter-increment: count 0;
+    }
+  }
+  @keyframes counter3 {
+    0% {
+      counter-increment: count 9;
+    }
+    10% {
+      counter-increment: count 8;
+    }
+    20% {
+      counter-increment: count 7;
+    }
+    30% {
+      counter-increment: count 0;
+    }
+    40% {
+      counter-increment: count 5;
+    }
+    50% {
+      counter-increment: count 2;
+    }
+    60% {
+      counter-increment: count 3;
+    }
+    70% {
+      counter-increment: count 1;
+    }
+    80% {
+      counter-increment: count 6;
+    }
+    90% {
+      counter-increment: count 4;
+    }
+    100% {
+      counter-increment: count 9;
+    }
+  }
+  @keyframes counter4 {
+    0% {
+      counter-increment: count 3;
+    }
+    10% {
+      counter-increment: count 1;
+    }
+    20% {
+      counter-increment: count 2;
+    }
+    30% {
+      counter-increment: count 7;
+    }
+    40% {
+      counter-increment: count 4;
+    }
+    50% {
+      counter-increment: count 9;
+    }
+    60% {
+      counter-increment: count 5;
+    }
+    70% {
+      counter-increment: count 8;
+    }
+    80% {
+      counter-increment: count 6;
+    }
+    90% {
+      counter-increment: count 2;
+    }
+    100% {
+      counter-increment: count 1;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .fuction-area-tgn-top {
+    height: 150px;
+    width: 96%;
+    margin: 0 auto;
+  }
+  .fuction-area-tgn-bottom {
+    min-height: 150px;
+    width: 96%;
+    margin: 0 auto;
+    overflow-x: auto;
+  }
+  .fuction-area-tgn-top-header {
+    width: 100%;
+    height: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  .fuction-area-tgn-top-title {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    color: rgb(143, 143, 143);
+  }
+  .fuction-area-tgn-top-button {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .fuction-area-tgn-bottom-td {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .fuction-area-tgn-top-button-item {
+    margin-left: 5px;
+  }
+  .fuction-area-tgn-bottom-td .haveto {
+    text-decoration: none;
+    border: 0.1px solid rgb(72, 136, 255);
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 50px;
+    cursor: pointer;
+  }
+  .fuction-area-tgn-bottom-td .haveto:hover {
+    background-color: rgba(193, 255, 255, 0.367);
+  }
+  .fuction-area-tgn-none-title {
+    width: 96%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .fuction-area-tgn-none-button {
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .fuction-area-tgn-none-button-input {
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    border: 0.1px solid grey;
+    outline: none;
+  }
+  .fuction-area-tgn-none-button-button {
+    width: 150px;
+  }
+
+  /*  */
+  .fuction-area-tgn-top-button-random-code-1::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter1 1s linear infinite alternate;
+    counter-reset: count 0;
+  }
+  .fuction-area-tgn-top-button-random-code-2::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter2 1s linear infinite alternate;
+    counter-reset: count 0;
+  }
+  .fuction-area-tgn-top-button-random-code-3::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter3 1s linear infinite alternate;
+    counter-reset: count 0;
+  }
+  .fuction-area-tgn-top-button-random-code-4::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter4 1s linear infinite alternate;
+    counter-reset: count 0;
+  }
+
+  @keyframes counter1 {
+    0% {
+      counter-increment: count 0;
+    }
+    10% {
+      counter-increment: count 1;
+    }
+    20% {
+      counter-increment: count 2;
+    }
+    30% {
+      counter-increment: count 3;
+    }
+    40% {
+      counter-increment: count 4;
+    }
+    50% {
+      counter-increment: count 5;
+    }
+    60% {
+      counter-increment: count 6;
+    }
+    70% {
+      counter-increment: count 7;
+    }
+    80% {
+      counter-increment: count 8;
+    }
+    90% {
+      counter-increment: count 9;
+    }
+    100% {
+      counter-increment: count 0;
+    }
+  }
+  @keyframes counter2 {
+    0% {
+      counter-increment: count 5;
+    }
+    10% {
+      counter-increment: count 3;
+    }
+    20% {
+      counter-increment: count 9;
+    }
+    30% {
+      counter-increment: count 1;
+    }
+    40% {
+      counter-increment: count 7;
+    }
+    50% {
+      counter-increment: count 6;
+    }
+    60% {
+      counter-increment: count 2;
+    }
+    70% {
+      counter-increment: count 8;
+    }
+    80% {
+      counter-increment: count 0;
+    }
+    90% {
+      counter-increment: count 3;
+    }
+    100% {
+      counter-increment: count 0;
+    }
+  }
+  @keyframes counter3 {
+    0% {
+      counter-increment: count 9;
+    }
+    10% {
+      counter-increment: count 8;
+    }
+    20% {
+      counter-increment: count 7;
+    }
+    30% {
+      counter-increment: count 0;
+    }
+    40% {
+      counter-increment: count 5;
+    }
+    50% {
+      counter-increment: count 2;
+    }
+    60% {
+      counter-increment: count 3;
+    }
+    70% {
+      counter-increment: count 1;
+    }
+    80% {
+      counter-increment: count 6;
+    }
+    90% {
+      counter-increment: count 4;
+    }
+    100% {
+      counter-increment: count 9;
+    }
+  }
+  @keyframes counter4 {
+    0% {
+      counter-increment: count 3;
+    }
+    10% {
+      counter-increment: count 1;
+    }
+    20% {
+      counter-increment: count 2;
+    }
+    30% {
+      counter-increment: count 7;
+    }
+    40% {
+      counter-increment: count 4;
+    }
+    50% {
+      counter-increment: count 9;
+    }
+    60% {
+      counter-increment: count 5;
+    }
+    70% {
+      counter-increment: count 8;
+    }
+    80% {
+      counter-increment: count 6;
+    }
+    90% {
+      counter-increment: count 2;
+    }
+    100% {
+      counter-increment: count 1;
+    }
+  }
+}

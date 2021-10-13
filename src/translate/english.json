@@ -1,0 +1,41 @@
+{
+    "left_menu": {
+        "function_1": "Trending",
+        "function_2": "Follow"
+    },
+    "home_status":{
+        "hello_1": "hey, write what you think?",
+        "hello_2": "Image/Video",
+        "hello_3": "React",
+        "hello_4": "Check in",
+        "hello_5": "Posting",
+        "hello_6": "Create post",
+        "hello_7": "Public Posts",
+        "hello_8": " hey, ",
+        "hello_9": "Image",
+        "hello_10": "Video",
+        "hello_11": "Check in",
+        "hello_12": "Music",
+        "hello_13": "Question",
+        "hello_14": "Sell",
+        "hello_15": "Life events",
+        "hello_16": "Your story",
+        "hello_17": "Mood",
+        "hello_18": "POST",
+        "hello_19": "This function is not yet complete, will apply in the near future.",
+        "hello_20": "Select a piece of music, it will be assigned to your post.",
+        "hello_21": "write what you think?",
+        "hello_22": "please write a little information about the product!",
+        "hello_23": "what are you thinking about?",
+        "hello_24": "Your Video Title",
+        "hello_25": "what is this video about?",
+        "hello_26": "Product's name",
+        "hello_27": "If you sell to businesses, please paste the link",
+        "hello_28": "Product price",
+        "hello_29": "please write a little information about the product!",
+        "hello_30": "please write your question here, everyone let's discuss!",
+        "hello_31": "Story name",
+        "hello_32": "please write a summary of the story here!"
+    }
+    
+}

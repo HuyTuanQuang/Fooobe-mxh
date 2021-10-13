@@ -1,0 +1,250 @@
+.container-singn {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.container-singn-email {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.container-singn-email input {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: 0.5px solid grey;
+  outline: none;
+  padding-left: 20px;
+  font-size: 16px;
+  position: relative;
+}
+.container-singn-email-input:focus {
+  border: 0.5px solid grey;
+  box-shadow: 1px 1px 2px black, 0 0 25px rgb(197, 252, 252),
+    0 0 5px rgb(47, 223, 223);
+}
+
+.container-singn-pass {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.container-singn-pass input {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: 0.5px solid grey;
+  outline: none;
+  padding-left: 20px;
+  font-size: 16px;
+  position: relative;
+}
+.container-singn-pass input:focus {
+  border: 0.5px solid grey;
+  box-shadow: 1px 1px 2px black, 0 0 25px rgb(197, 252, 252),
+    0 0 5px rgb(47, 223, 223);
+}
+
+.container-singn-eye-icon {
+  position: absolute;
+  width: 35px;
+  right: 0px;
+  height: 35px;
+  margin-right: 11%;
+  border-right: 0.5px solid rgb(201, 201, 201);
+  border-radius: 0px 20px 20px 0px;
+  margin-top: 4px;
+  border: none;
+}
+/*  */
+.container-singn-birthday {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.container-singn-birthday-day {
+  width: 30%;
+  height: 40px;
+}
+.container-singn-birthday-month {
+  width: 30%;
+  height: 40px;
+}
+.container-singn-birthday-year {
+  width: 30%;
+  height: 40px;
+}
+.container-singn-birthday-day select {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: 0.5px solid grey;
+  outline: none;
+  padding-left: 15px;
+  font-size: 16px;
+}
+.container-singn-birthday-month select {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: 0.5px solid grey;
+  outline: none;
+  padding-left: 15px;
+  font-size: 16px;
+}
+.container-singn-birthday-year select {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: 0.5px solid grey;
+  outline: none;
+  padding-left: 15px;
+  font-size: 16px;
+}
+.container-singn-gender {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.container-singn-gender-nam label {
+  cursor: pointer;
+}
+.container-singn-gender-nu label {
+  cursor: pointer;
+}
+.container-singn-gender-tc label {
+  cursor: pointer;
+}
+/*  */
+@media only screen and (min-width: 700px) {
+  .container-singn-lastfirst {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 40px;
+  }
+  .container-singn-lastfirst input {
+    width: 48%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0.5px solid grey;
+    outline: none;
+    padding-left: 20px;
+    font-size: 16px;
+    position: relative;
+  }
+  .container-singn-first-input {
+    margin-right: 4%;
+  }
+  .container-singn-first-input:focus {
+    border: 0.5px solid grey;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(197, 252, 252),
+      0 0 5px rgb(47, 223, 223);
+  }
+  .container-singn-last-input:focus {
+    border: 0.5px solid grey;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(197, 252, 252),
+      0 0 5px rgb(47, 223, 223);
+  }
+  .button-create-login {
+    color: aqua;
+    float: left;
+    margin-left: 11.4%;
+    font-size: 17px;
+  }
+  .button-create-singn {
+    margin-right: 10%;
+    float: right;
+  }
+  .button-create-singn button {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: 0.5px solid grey;
+    background-color: rgb(78, 252, 93);
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    box-shadow: 1px 1px 4px black;
+  }
+  .button-create-singn button:hover {
+    box-shadow: 1px 1px 4px rgb(30, 216, 230);
+  }
+  .button-create-login-link-1 {
+    text-decoration: none;
+    color: tomato;
+  }
+  .button-create-login-link-2 {
+    display: none;
+  }
+  .button-create-login-link-1:hover {
+    text-decoration: underline;
+  }
+}
+@media only screen and (max-width: 699px) {
+  .container-singn-lastfirst {
+    width: 75%;
+    margin-top: 40px;
+    margin-left: 10%;
+  }
+  .container-singn-lastfirst input {
+    width: 97%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0.5px solid grey;
+    outline: none;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .container-singn-last-input {
+    margin-top: 20px;
+  }
+  .container-singn-first-input:focus {
+    border: 0.5px solid grey;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(197, 252, 252),
+      0 0 5px rgb(47, 223, 223);
+  }
+  .container-singn-last-input:focus {
+    border: 0.5px solid grey;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(197, 252, 252),
+      0 0 5px rgb(47, 223, 223);
+  }
+  .button-create-login {
+    color: aqua;
+    float: left;
+    margin-left: 11.4%;
+    font-size: 17px;
+  }
+  .button-create-singn {
+    margin-right: 10%;
+    float: right;
+  }
+  .button-create-singn button {
+    width: 130px;
+    height: 30px;
+    border-radius: 15px;
+    border: 0.5px solid grey;
+    background-color: rgb(78, 252, 93);
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    box-shadow: 1px 1px 4px black;
+  }
+  .button-create-singn button:hover {
+    box-shadow: 1px 1px 4px rgb(30, 216, 230);
+  }
+  .button-create-login-link-2 {
+    text-decoration: none;
+    color: tomato;
+  }
+  .button-create-login-link-1 {
+    display: none;
+  }
+  .button-create-login-link-2:hover {
+    text-decoration: underline;
+  }
+}

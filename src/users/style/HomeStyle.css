@@ -1,0 +1,53 @@
+@media only screen and (min-width: 1200px) {
+  .home-controller {
+    width: 100%;
+    padding-top: 75px;
+    display: flex;
+  }
+  .home-profile {
+    width: 25%;
+    float: left;
+    position: fixed;
+    left: 0px;
+    z-index: 10000;
+  }
+  .home-page {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .home-advertisement {
+    width: 25%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+  .home-controller {
+    width: 100%;
+    padding-top: 75px;
+    display: flex;
+  }
+  .home-profile {
+    width: 35%;
+  }
+  .home-page {
+    width: 65%;
+  }
+  .home-advertisement {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .home-controller {
+    width: 100%;
+    padding-top: 75px;
+    display: flex;
+  }
+  .home-profile {
+    display: none;
+  }
+  .home-page {
+    width: 100%;
+  }
+  .home-advertisement {
+    display: none;
+  }
+}

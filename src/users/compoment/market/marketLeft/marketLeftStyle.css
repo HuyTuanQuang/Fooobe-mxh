@@ -1,0 +1,142 @@
+@media only screen and (min-width: 1200px) {
+  .market-layout-left {
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+    float: left;
+  }
+
+  .market-layout-left-nav {
+    width: 95%;
+    margin-left: 2%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+  }
+  .market-layout-left-nav-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .market-layout-left-nav-tile {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16pt;
+  }
+  .market-layout-left-nav-icon {
+    font-size: 15pt;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .market-layout-left-nav-icon:hover {
+    background-color: whitesmoke;
+  }
+  .market-layout-left-nav-row-form {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .market-layout-left-nav-row-form-input-icon {
+    font-size: 14pt;
+    width: 15%;
+    height: 32px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .market-layout-left-nav-row-form-input {
+    width: 70%;
+    height: 30px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+  }
+  .market-layout-left-body {
+    width: 98%;
+    margin-left: 2%;
+    background-color: violet;
+    height: 80%;
+  }
+  .market-layout-left-body-scroll {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  #market-layout-left-body-scroll-style::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+
+  #market-layout-left-body-scroll-style::-webkit-scrollbar {
+    width: 7px;
+  }
+  .market-layout-left-body-scroll:hover::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+
+    background-color: rgb(160, 165, 170);
+  }
+  .market-layout-left-body-scroll-link {
+    text-decoration: none;
+    color: black;
+  }
+  .market-layout-left-body-scroll-row {
+    width: 100%;
+    height: 10%;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 2%;
+    justify-content: left;
+    align-items: center;
+  }
+  .market-layout-left-body-scroll-row:hover {
+    background-color: whitesmoke;
+  }
+  .market-layout-left-body-scroll-row-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .market-layout-left-body-scroll-row-tile {
+    margin-left: 10px;
+    font-weight: 600;
+  }
+  .market-layout-left-body-scroll-row-body {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+  }
+  .market-layout-left-body-scroll-row-body-tile {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .market-layout-left-body-scroll-row-body-tile:hover {
+    background-color: whitesmoke;
+  }
+  .market-layout-left-body-scroll-row-category {
+    width: 100%;
+    height: auto;
+  }
+}

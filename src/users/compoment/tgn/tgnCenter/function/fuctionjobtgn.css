@@ -1,0 +1,186 @@
+@media only screen and (min-width: 1200px) {
+  .fuction-job-tgn {
+    width: 96%;
+    margin: 0 auto;
+  }
+  .fuction-job-tgn-button {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 7px;
+    padding-right: 7px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  .fuction-job-tgn-button:hover {
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+  }
+  .fuction-job-tgn-button:active {
+    background-color: rgb(180, 180, 180);
+    border-radius: 10px;
+  }
+  .fuction-job-tgn-button-event {
+    font-size: 27px;
+    color: rgb(87, 228, 82);
+  }
+  .fuction-job-tgn-skill {
+    width: 100%;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 0.1px solid rgb(221, 221, 221);
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .fuction-job-tgn-button-name {
+    color: crimson;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  /*  */
+  .fuction-job-tgn-skill-name {
+    color: darkcyan;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .fuction-job-tgn-skill-action {
+    display: flex;
+  }
+  .fuction-job-tgn-skill-action-name {
+    width: 250px;
+    font-weight: 500;
+  }
+  .fuction-job-tgn-skill-action-title {
+    margin-right: 5px;
+    font-weight: 500;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+  .fuction-job-tgn {
+    width: 96%;
+    margin: 0 auto;
+  }
+  .fuction-job-tgn-button {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 7px;
+    padding-right: 7px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  .fuction-job-tgn-button:hover {
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+  }
+  .fuction-job-tgn-button:active {
+    background-color: rgb(180, 180, 180);
+    border-radius: 10px;
+  }
+  .fuction-job-tgn-button-event {
+    font-size: 27px;
+    color: rgb(9, 255, 0);
+  }
+  .fuction-job-tgn-skill {
+    width: 100%;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 0.1px solid rgb(221, 221, 221);
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .fuction-job-tgn-button-name {
+    color: crimson;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  /*  */
+  .fuction-job-tgn-skill-name {
+    color: darkcyan;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .fuction-job-tgn-skill-action {
+    display: flex;
+  }
+  .fuction-job-tgn-skill-action-name {
+    width: 100%;
+    font-weight: 500;
+  }
+  .fuction-job-tgn-skill-action-title {
+    margin-right: 5px;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .fuction-job-tgn {
+    width: 96%;
+    margin: 0 auto;
+  }
+  .fuction-job-tgn-button {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 7px;
+    padding-right: 7px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  .fuction-job-tgn-button:hover {
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+  }
+  .fuction-job-tgn-button:active {
+    background-color: rgb(180, 180, 180);
+    border-radius: 10px;
+  }
+  .fuction-job-tgn-button-event {
+    font-size: 27px;
+    color: rgb(9, 255, 0);
+  }
+  .fuction-job-tgn-skill {
+    width: 100%;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 0.1px solid rgb(221, 221, 221);
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .fuction-job-tgn-button-name {
+    color: crimson;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  /*  */
+  .fuction-job-tgn-skill-name {
+    color: darkcyan;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .fuction-job-tgn-skill-action {
+    display: flex;
+  }
+  .fuction-job-tgn-skill-action-name {
+    width: 400px;
+    font-weight: 500;
+  }
+  .fuction-job-tgn-skill-action-title {
+    margin-right: 5px;
+    font-weight: 500;
+  }
+}

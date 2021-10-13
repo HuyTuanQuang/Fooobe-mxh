@@ -1,0 +1,415 @@
+@media only screen and (min-width: 1200px) {
+    /* request */
+    .friend-center-profile-avatar-request img{
+   
+        position: absolute;
+        border-radius: 50%;
+        width: 130px;
+        height: 130px;
+        bottom: 0px;
+        border: 4px solid white;
+    
+    
+    }
+    .friend-center-profile-avatar-request{
+        position: relative;
+        width: 100%;
+        height: 65px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+    .friend-center-button-accept-request{
+        background-color: #1b74e4;
+        color: white;
+        height: 40px;
+        width: 70px;
+        border-radius: 10%;
+        border: none;  
+      
+        float: left;
+        margin-left: 30px;
+        
+        
+        
+        
+    }
+    .friend-center-button-message-request{
+        background-color: #e4e6eb;
+        color: black;
+        height: 40px;
+        width: 70px;
+        border-radius: 10%;
+        border: none;
+        margin-left: 10px;
+        float: left;
+       
+        
+        
+    }
+    .friend-center-button-seemore-request{
+        background-color: #e4e6eb;
+        color: black;
+        height: 40px;
+        width: 50px;
+        border-radius: 10%;
+        border: none;
+        margin-left: 10px;
+        
+        float: left;
+       
+    }
+    .friend-center-button-accept-request h4{
+        margin: 0 auto;
+    }
+    .friend-center-button-message-request h4{
+        margin: 0 auto;
+    }
+    .friend-center-button-seemore-request h4{
+        margin: 0 auto;
+    }
+    
+    .friend-center-button-accept-request-1{
+        background-color: #1b74e4;
+        color: white;
+        height: 40px;
+        width: 135px;
+        border-radius: 10%;
+        border: none;  
+        
+        position: relative;
+        float: left;
+        margin-left: 40px;
+        margin-right: 10px;
+        top: 10px;
+        
+        
+    }
+    
+    .friend-center-button-delete-invite-request{
+        background-color: #e4e6eb;
+        color: black;
+        height: 40px;
+        width: 135px;
+        border-radius: 10%;
+        border: none;  
+        margin-right: 10px;
+        position: relative;
+        float: left;
+       
+        top: 10px;
+        
+    }
+    
+    .friend-center-button-accept-request-1 h4{
+        margin: 0 auto;
+    }
+    .friend-center-button-delete-invite-request h4{
+        margin: 0 auto;
+    }
+    .friend-center-profile-avatar-request-1 img{
+        
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;  
+       
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .friend-center-profile-avatar-request-1{
+        display: flex;
+    }
+    .friend-center-post-avatar-request{
+        position: relative;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .friend-center-post-avatar-request img{
+       
+        position: absolute;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        bottom: 0px;
+        border: 4px solid white;
+    
+    
+    }
+    .friend-center-button-like-request{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .friend-center-button-comments-request{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .friend-center-button-share-request{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    /* List */
+
+    
+.friend-center-profile-avatar-list img{
+   
+    position: absolute;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    bottom: 0px;
+    border: 4px solid white;
+
+
+}
+.friend-center-profile-avatar-list{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.friend-center-button-friend-list{
+    background-color: #1b74e4;
+    color: white;
+    height: 40px;
+    width: 70px;
+    border-radius: 10%;
+    border: none;  
+  
+    float: left;
+    margin-left: 30px;
+    
+    
+    
+    
+}
+.friend-center-button-message-list{
+    background-color: #e4e6eb;
+    color: black;
+    height: 40px;
+    width: 70px;
+    border-radius: 10%;
+    border: none;
+    margin-left: 10px;
+    float: left;
+   
+    
+    
+}
+.friend-center-button-seemore-list{
+    background-color: #e4e6eb;
+    color: black;
+    height: 40px;
+    width: 50px;
+    border-radius: 10%;
+    border: none;
+    margin-left: 10px;
+    
+    float: left;
+   
+}
+.friend-center-button-friend-list h4{
+    margin: 0 auto;
+}
+.friend-center-button-message-list h4{
+    margin: 0 auto;
+}
+.friend-center-button-seemore-list h4{
+    margin: 0 auto;
+}
+
+
+
+
+.friend-center-profile-avatar-list-1 img{
+    
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;  
+   
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.friend-center-profile-avatar-list-1{
+    display: flex;
+}
+
+.friend-center-post-avatar-list{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.friend-center-post-avatar-list img{
+   
+    position: absolute;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    bottom: 0px;
+    border: 4px solid white;
+
+
+}
+.friend-center-button-like-list{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.friend-center-button-comments-list{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.friend-center-button-share-list{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* sugess */
+
+.friend-center-profile-avatar-suggestion img{
+   
+    position: absolute;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    bottom: 0px;
+    border: 4px solid white;
+
+
+}
+.friend-center-profile-avatar-suggestion{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.friend-center-button-add-friend-suggestion-1{
+    background-color: #1b74e4;
+    color: white;
+    height: 40px;
+    width: 70px;
+    border-radius: 10%;
+    border: none;  
+  
+    float: left;
+    margin-left: 30px;
+    
+    
+    
+    
+}
+.friend-center-button-message-suggestion{
+    background-color: #e4e6eb;
+    color: black;
+    height: 40px;
+    width: 70px;
+    border-radius: 10%;
+    border: none;
+    margin-left: 10px;
+    float: left;
+   
+    
+    
+}
+.friend-center-button-seemore-suggestion{
+    background-color: #e4e6eb;
+    color: black;
+    height: 40px;
+    width: 50px;
+    border-radius: 10%;
+    border: none;
+    margin-left: 10px;
+    
+    float: left;
+   
+}
+.friend-center-button-add-friend-suggestion-1 h4{
+    margin: 0 auto;
+}
+.friend-center-button-message-suggestion h4{
+    margin: 0 auto;
+}
+.friend-center-button-seemore-suggestion h4{
+    margin: 0 auto;
+}
+
+
+
+
+.friend-center-profile-avatar-suggestion-1 img{
+    
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;  
+   
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.friend-center-profile-avatar-suggestion-1{
+    display: flex;
+}
+.friend-center-post-avatar-suggestion{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.friend-center-post-avatar-suggestion img{
+   
+    position: absolute;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    bottom: 0px;
+    border: 4px solid white;
+
+
+}
+.friend-center-button-like-suggestion{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.friend-center-button-comments-suggestion{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.friend-center-button-share-suggestion{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* Home */
+
+.friend-center-button-share-suggestion{
+    background-color: #1b74e4;
+  color: white;
+  height: 30px;
+  width: 110px;
+  border-radius: 10%;
+  border: none;
+  margin-bottom: 10px;
+  }
+
+  .friend-center-button-delete-home-friend{
+  background-color: #e4e6eb;
+  color: black;
+  height: 30px;
+  width: 110px;
+  border-radius: 10%;
+  border: none;
+  
+  }
+
+
+}

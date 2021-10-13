@@ -1,0 +1,177 @@
+.container-login {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  
+}
+  
+
+.container-login-email {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 40px;
+}
+.container-login-email input {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: 0.5px solid grey;
+  outline: none;
+  padding-left: 45px;
+  font-family: "Comic Sans MS", "Lucida Sans Unicode", sans-serif;
+  font-size: 16px;
+  position: relative;
+}
+.container-login-email-input:focus {
+  border: 0.5px solid grey;
+  box-shadow: 1px 1px 2px black, 0 0 25px rgb(197, 252, 252),
+    0 0 5px rgb(47, 223, 223);
+}
+.container-login-pass {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.container-login-pass input {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: 0.5px solid grey;
+  outline: none;
+  padding-left: 45px;
+  font-family: "Comic Sans MS", "Lucida Sans Unicode", sans-serif;
+  font-size: 16px;
+  position: relative;
+}
+.container-login-pass input:focus {
+  border: 0.5px solid grey;
+  box-shadow: 1px 1px 2px black, 0 0 25px rgb(197, 252, 252),
+    0 0 5px rgb(47, 223, 223);
+}
+.container-login-pass-icon {
+  position: absolute;
+  width: 35px;
+  height: 30px;
+  border-right: 0.5px solid rgb(201, 201, 201);
+  margin-top: 7px;
+  border-radius: 20px 0px 0px 20px;
+}
+.container-login-pass-icon-sub {
+  margin-top: 2px;
+  margin-left: 8px;
+}
+.container-login-email-icon {
+  position: absolute;
+  width: 35px;
+  height: 30px;
+  border-right: 0.5px solid rgb(201, 201, 201);
+  margin-top: 7px;
+  border-radius: 20px 0px 0px 20px;
+}
+.container-login-email-icon-sub {
+  margin-top: 2px;
+  margin-left: 8px;
+}
+.container-login-eye-icon {
+  position: absolute;
+  width: 35px;
+  right: 0px;
+  height: 35px;
+  margin-right: 11%;
+  border-right: 0.5px solid rgb(201, 201, 201);
+  border-radius: 0px 20px 20px 0px;
+  margin-top: 4px;
+  border: none;
+}
+.Noti{
+    width: 100%;
+    height: 10px;
+}
+.button-submit {
+  margin-top: 5px;
+}
+@media only screen and (min-width: 700px) {
+  .button-submit-singn {
+      color: aqua;
+      float: left;
+      margin-left: 11.4%;
+      font-size: 17px;
+  }
+  .button-submit-login {
+    margin-right: 10%;
+    float: right;
+    
+  }
+  .button-submit-login button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: 0.5px solid grey;
+    background-color: rgb(78, 153, 252);
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    box-shadow: 1px 1px 4px black;
+  }
+  .button-submit-login button:hover{
+    box-shadow: 1px 1px 4px rgb(30, 216, 230);
+  }
+  .button-submit-singn-link{
+      text-decoration: none;
+      color: tomato;
+  }
+  .button-submit-singn-link br{
+      display: none;
+  }
+  .button-submit-singn-link:hover{
+      text-decoration: underline;
+  }
+}
+@media only screen and (max-width: 699px) {
+    .button-submit-singn {
+        color: aqua;
+        float: left;
+        margin-left: 11.4%;
+        font-size: 14px;
+    }
+    .button-submit-login {
+      margin-right: 10%;
+      float: right;
+      
+    }
+    .button-submit-login button{
+      width: 100px;
+      height: 30px;
+      border-radius: 15px;
+      border: 0.5px solid grey;
+      background-color: rgb(78, 153, 252);
+      font-weight: bold;
+      font-size: 14px;
+      color: white;
+      box-shadow: 1px 1px 4px black;
+    }
+    .button-submit-login button:hover{
+      box-shadow: 1px 1px 4px rgb(30, 216, 230);
+    }
+    .button-submit-singn-link{
+        text-decoration: none;
+        color: tomato;
+    }
+    .button-submit-singn-link:hover{
+        text-decoration: underline;
+    }
+    .errorControll{
+        display: none;
+    }
+    /* Vui */
+   
+     .container-login-anime{
+       outline: none;
+       color: aqua;
+     }
+     .container-login-text[contentEditable="true"]:empty:before {
+      content: attr(placeholder)
+    }
+   
+}
