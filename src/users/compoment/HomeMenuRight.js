@@ -5,8 +5,7 @@ import HomeMenu from "./storys/storysLeft/HomeMenu";
 import PlayMenu from "./plays/palysLeft/PlayMenu";
 import WatchMenu from "./watch/watchLeft/WatchMenu";
 import LoginPanel from "../../singn/LoginPanel";
-import TGNMenuRight from "./tgn/tgnRight/TGNMenuRight";
-import TGNRightRoute from "./tgn/route/TGNRightRoute";
+
 import RouteRight from "./messenger/route/RouteRight";
 import RouteFriendRight from "./friends/route/RouteFriendRight";
 import RouteSettingRight from "./setting/route/RouteSettingRight";
@@ -40,9 +39,7 @@ function HomeMenuRight({ trans, tabMess }) {
         <Route path="/setting">
           <RouteSettingRight />
         </Route>
-        <Route path="/tgn">
-          <TGNRightRoute />
-        </Route>
+     
         <Route path="/login">
           <LoginPanel />
         </Route>
